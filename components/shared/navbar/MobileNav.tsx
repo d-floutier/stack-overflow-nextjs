@@ -13,7 +13,6 @@ import { SignedOut } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 import { sidebarLinks } from "@/constants";
 import { usePathname } from "next/navigation";
-import { RouteKind } from "next/dist/server/future/route-kind";
 
 const NavContent = () => {
   const pathname = usePathname();
@@ -38,7 +37,7 @@ const NavContent = () => {
                 alt={item.label}
                 width={20}
                 height={20}
-                className={`${isActive ? "invert-colors" : ""}`}
+                className={`${isActive ? "" : "invert-colors"}`}
               />
               <p className={`${isActive ? "base-bold" : "base-medium"}`}>
                 {item.label}
