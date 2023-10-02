@@ -1,4 +1,4 @@
-import { SidebarLink } from "@/types";
+import { SidebarLink, TopQuestion, PopularTag } from "@/types";
 
 export const themes = [
   { value: "light", label: "Light", icon: "/assets/icons/sun.svg" },
@@ -71,3 +71,60 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
+
+export const topQuestion: TopQuestion[] = [
+  {
+    route: "/",
+    label:
+      "Best practices for data fetching in a Next.js application with Server-Side Rendering (SSR)?",
+  },
+  {
+    route: "/",
+    label: "Can I get the course for free?",
+  },
+  {
+    route: "/",
+    label: "Redux Toolkit Not Updating State as Expected",
+  },
+  {
+    route: "/",
+    label: "Async/Await Function Not Handling Errors Properly",
+  },
+  {
+    route: "/",
+    label: "How do I use express as a custom server in NextJS?",
+  },
+];
+
+export const popularTag: PopularTag[] = [
+  {
+    route: "/",
+    id: 1,
+    label: "NEXTJS",
+    number: 6,
+  },
+  {
+    route: "/",
+    id: 2,
+    label: "TEST",
+    number: 3,
+  },
+  {
+    route: "/",
+    id: 3,
+    label: "REACT",
+    number: 3,
+  },
+  {
+    route: "/",
+    id: 4,
+    label: "NUXT",
+    number: 2,
+  },
+  {
+    route: "/",
+    id: 5,
+    label: "CSS",
+    number: 5,
+  },
+];

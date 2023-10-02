@@ -46,3 +46,15 @@ export interface BadgeCounts {
 }
 
 export type BadgeCriteriaType = keyof typeof BADGE_CRITERIA;
+
+export interface TopQuestion {
+  route: string;
+  label: string;
+}
+
+export interface PopularTag {
+  route: string;
+  id: number;
+  label: string;
+  number: number;
+}
