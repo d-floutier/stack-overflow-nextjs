@@ -99,19 +99,19 @@ export const topQuestion: TopQuestion[] = [
 export const popularTag: PopularTag[] = [
   {
     route: "/",
-    id: 1,
+    id: "1",
     label: "NEXTJS",
     number: 6,
   },
   {
     route: "/",
-    id: 2,
+    id: "2",
     label: "TEST",
     number: 3,
   },
   {
     route: "/",
-    id: 3,
+    id: "3",
     label: "REACT",
     number: 3,
   },
@@ -123,7 +123,7 @@ export const popularTag: PopularTag[] = [
   },
   {
     route: "/",
-    id: 5,
+    id: "5",
     label: "CSS",
     number: 5,
   },
